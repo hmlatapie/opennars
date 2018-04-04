@@ -1,0 +1,2 @@
+docker run -it --rm --name opennars --net=host --env="DISPLAY" --volume="$HOME/.Xauthority:/root/.Xauthority:rw" -v $(pwd):/opennars hmlatapie/opennars  /bin/bash
+
